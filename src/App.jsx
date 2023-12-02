@@ -6,6 +6,7 @@ import Post from "./componets/Post"
 import Product from "./componets/Product"
 import Notfound from "./componets/Notfound"
 import Proteksi from "./protect/Protect"
+import Dashboard from "./componets/Dashboard"
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path={"product"} element={<Product/>}/>
         </Route>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/dahsboard" element={<Dashboard/>}/>
         <Route path="*" element={<Notfound/>}/>
       </Routes>
       </BrowserRouter>
